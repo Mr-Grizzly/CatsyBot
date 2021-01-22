@@ -4,10 +4,10 @@ from pretty_help import PrettyHelp
 
 
 bot = commands.Bot(command_prefix=".", description='A bot specially made for fun', owner_id=762628291508043786, case_insensitive=True)
-bot.load_extension('cogs.cog_admin')
-bot.load_extension('cogs.cog_info')
-bot.load_extension('cogs.cog_calculator')
-bot.load_extension('cogs.cog_stuff')
+bot.load_extension('cog_admin')
+bot.load_extension('cog_info')
+bot.load_extension('cog_calculator')
+bot.load_extension('cog_stuff')
 bot.help_command = PrettyHelp()
 bot.help_command = PrettyHelp(index_title="CatsyBot Help Page", no_category="Other Stuff")
 
