@@ -1,8 +1,8 @@
 import random
 from discord.ext import commands
-from library import links
-from library import about_text as wm
-from library import colors, dice
+import links
+import about_text as wm
+import colors, dice
 import asyncio
 import discord
 import aiohttp
