@@ -35,4 +35,4 @@ async def on_message(message):
         await message.channel.send(msg)
 
 
-bot.run("Nzk2MDgyMzc0MjQ4MTAzOTU4.X_SvfA.lJ_5m8KyBCD1F61zZ-dFMU8YgM0")
+bot.run("TOKEN")
